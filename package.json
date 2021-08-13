@@ -1,0 +1,21 @@
+{
+  "name": "recruit",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "Unlicensed",
+  "private": true,
+  "scripts": {
+    "start":"lerna run start --parallel",
+    "build":"lerna run build",
+    "dev":"lerna run dev --parallel",
+    "start:prod":"lerna run start:prod --parallel"
+  },
+  "workspaces": [
+    "server",
+    "dashboard",
+    "client"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}

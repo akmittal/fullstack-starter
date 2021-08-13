@@ -1,0 +1,21 @@
+html,
+body>* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  --primary-color: blue;
+}
+
+body.chakra-ui-dark   {
+  background-color: #1e2227;
+}
