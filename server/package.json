@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "fullstack-server",
   "version": "1.0.0",
   "main": "src/index.ts",
   "private": "true",
@@ -17,7 +17,7 @@
     "@types/qrcode": "^1.4.0",
     "@types/redis": "^2.8.30",
     "@types/uuid": "^8.3.0",
-    "apollo-server-express": "^3.0.0",
+    "apollo-server-express": "^3.5.0",
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.4.0",
@@ -35,11 +35,11 @@
     "pg": "^8.7.1",
     "pino": "^6.11.3",
     "prettier-eslint": "^13.0.0",
-    "redis": "^3.1.2",
+    "redis": "^4.0.0",
     "reflect-metadata": "^0.1.13",
     "subscriptions-transport-ws": "^0.9.19",
     "type-graphql": "^1.1.1",
-    "typeorm": "0.2.35",
+    "typeorm": "0.2.41",
     "uuid": "^8.3.2"
   },
   "scripts": {
